@@ -12,20 +12,24 @@
 	<dict>
 		<key>109F3F1915701C94FF339CF2988C0E0047CCB4F3</key>
 		<string>https://github.com/cmidler/ProjectEulerObjectiveC.git</string>
+		<key>86E758E3E354F9AFB3A8C63EA124E74A83937A22</key>
+		<string>https://github.com/cmidler/CrackingTheCodingInterview.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>CrackingTheCodingInterview/CrackingTheCodingInterview.xcodeproj/project.xcworkspace</string>
+	<string>CrackingTheCodingInterview.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>109F3F1915701C94FF339CF2988C0E0047CCB4F3</key>
 		<string>../../..</string>
+		<key>86E758E3E354F9AFB3A8C63EA124E74A83937A22</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/cmidler/ProjectEulerObjectiveC.git</string>
+	<string>https://github.com/cmidler/CrackingTheCodingInterview.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>109F3F1915701C94FF339CF2988C0E0047CCB4F3</string>
+	<string>86E758E3E354F9AFB3A8C63EA124E74A83937A22</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -34,7 +38,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>109F3F1915701C94FF339CF2988C0E0047CCB4F3</string>
 			<key>IDESourceControlWCCName</key>
-			<string>googlePrep</string>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>86E758E3E354F9AFB3A8C63EA124E74A83937A22</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CrackingTheCodingInterview</string>
 		</dict>
 	</array>
 </dict>
