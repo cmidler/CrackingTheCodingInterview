@@ -6,11 +6,25 @@ package Chapter1;
 public class Question3 {
 
     private void shiftArray(char[] arr, int index){
-        for(int i = index+3; i<arr.length; i++)
-            arr[i] = arr[i-3];
+        System.out.println(index);
         arr[index] = '%';
-        arr[index+1] = '2';
-        arr[index+2] = '0';
+        char tmp1 = '2';
+        char tmp2 = '0';
+        int i = index;
+        for(; i<arr.length-1; i+=2) {
+
+            char tmp = arr[i];
+            arr[i] = tmp1;
+            tmp1 = tmp;
+            tmp = arr[i+1];
+            arr[i+1] = tmp2;
+            tmp2 = tmp;
+        }
+
+        if(i<arr.length)
+            arr[i] = tmp1;
+
+
     }
 
     public void urlify(char[] arr)
