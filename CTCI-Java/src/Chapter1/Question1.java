@@ -2,6 +2,8 @@ package Chapter1;
 
 /**
  * Created by cptmidler on 7/6/17.
+ * Is Unique: Implement an algorithm to determine if a string has all unique characters. What if you
+ cannot use additional data structures?
  */
 import java.util.HashMap;
 import java.util.Arrays;

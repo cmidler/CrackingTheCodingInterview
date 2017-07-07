@@ -2,11 +2,14 @@ package Chapter1;
 
 /**
  * Created by cptmidler on 7/6/17.
+ *URLify: Write a method to replace all spaces in a string with '%20: You may assume that the string
+ has sufficient space at the end to hold the additional characters, and that you are given the "true"
+ length of the string. (Note: If implementing in Java, please use a character array so that you can
+ perform this operation in place.)
  */
 public class Question3 {
 
     private void shiftArray(char[] arr, int index){
-        System.out.println(index);
         arr[index] = '%';
         char tmp1 = '2';
         char tmp2 = '0';
@@ -24,7 +27,6 @@ public class Question3 {
         if(i<arr.length)
             arr[i] = tmp1;
 
-
     }
 
     public void urlify(char[] arr)
@@ -32,9 +34,7 @@ public class Question3 {
         for(int i = 0; i< arr.length; i++)
             if(arr[i] == ' ')
             {
-                System.out.println(arr);
                 shiftArray(arr, i);
-                System.out.println(arr);
                 i+=2;
             }
     }

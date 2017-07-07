@@ -1,3 +1,9 @@
+'''
+Check Permutation: Given two strings, write a method to decide if one is a permutation of the
+other. 
+'''
+
+
 def isPermutation(s1,s2):
 	if (len(s1) != len(s2)):
 		return False
