@@ -22,44 +22,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Question2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter2/Question2.java">
+      <file leaf-file-name="Question3.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Chapter3/Question3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="75" column="23" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="75" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Question4.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter2/Question4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="111" column="5" lean-forward="true" selection-start-line="67" selection-start-column="4" selection-end-line="111" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Question6.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter2/Question6.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="90" column="5" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="90" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Question8.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Chapter2/Question8.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+            <state relative-caret-position="245">
+              <caret line="68" column="8" lean-forward="false" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#680#686#0" expanded="true" />
+                <element signature="e#1152#1161#0" expanded="true" />
+                <element signature="e#1513#1522#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,6 +62,7 @@
         <option value="$PROJECT_DIR$/src/Chapter2/Question4.java" />
         <option value="$PROJECT_DIR$/src/Chapter2/Question6.java" />
         <option value="$PROJECT_DIR$/src/Chapter2/Question8.java" />
+        <option value="$PROJECT_DIR$/src/Chapter3/Question3.java" />
       </list>
     </option>
   </component>
@@ -145,10 +117,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -161,6 +129,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -196,27 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Question8">
-    <configuration default="false" name="Question9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Chapter1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Chapter1.Question9" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CTCI-Java" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Question3">
     <configuration default="false" name="Question2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -285,6 +237,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Chapter2.Question8" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CTCI-Java" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Question3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Chapter3.Question3" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -503,19 +475,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Question9" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Question2" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Question4" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Question6" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Question8" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Question2" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Question4" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Question6" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Question8" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Question3" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Question8" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Question6" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Question4" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Question2" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Question9" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Question3" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Question8" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Question6" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Question4" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Question2" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -749,11 +721,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter2/Question8.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+        <state relative-caret-position="112">
+          <caret line="47" column="39" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="47" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#680#686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter3/Question3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="68" column="8" lean-forward="false" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1152#1161#0" expanded="true" />
+            <element signature="e#1513#1522#0" expanded="true" />
           </folding>
         </state>
       </provider>
