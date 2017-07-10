@@ -66,7 +66,7 @@ public class Question3 {
 
             return cur.pop();
         }
-        
+
 
         public void printStacks(){
             for(Stack s:stacks)
