@@ -13,35 +13,37 @@ public class Question11 {
         if (n<0)
             return 0;
         int[] denoms = {25,10,5,1};
-        return numWays(n, denoms, 0, new HashMap<Integer, Integer>());
+        return numWays(n, denoms, 0, new HashMap<String, Integer>());
     }
 
-    int numWays(int n, int[] denoms, int index, HashMap<Integer, Integer> map)
+    int numWays(int amount, int[] denoms, int index, HashMap<String, Integer> map)
     {
-        if (map.containsKey(n))
-            return map.get(n);
 
-        if(index >= denoms.length)
+        if(index >= (denoms.length-1))
             return 1;
 
-        int amount = denoms[index];
-        int ways = 0;
-        for(int i = 0; i*amount <=n; i++)
-        {
-            int amountRemaining = amount - i*amount;
-            ways+=numWays(amountRemaining,denoms, index+1, map);
+        String key = Integer.toString(amount) + " "+Integer.toString(index);
 
+        if (map.containsKey(key)) {
+            return map.get(key);
         }
 
-        map.put(n, ways);
+        int denomAmount = denoms[index];
+        int ways = 0;
+        for(int i = 0; i*denomAmount <=amount ; i++)
+        {
+            int amountRemaining = amount - i*denomAmount;
+            ways += numWays(amountRemaining, denoms, index+1, map);
+        }
 
-        return map.get(n);
-
+        key = Integer.toString(amount) + " "+Integer.toString(index);
+        map.put(key, ways);
+        return ways;
 
     }
 
     public static void main(String[] args) {
         Question11 q11 = new Question11();
-        System.out.println(q11.makeCents(43));
+        System.out.println(q11.makeCents(35));
     }
 }
