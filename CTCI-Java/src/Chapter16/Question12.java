@@ -16,7 +16,7 @@ package Chapter16;
  <person firstName="Gayle">Some Message</person>
  </family>
  Becomes:
- 1 4 McDowell 5 CA 0 2 3 Gayle e Some Message e e
+ 1 4 McDowell 5 CA 0 2 3 Gayle 0 Some Message 0 0
  Write code to print the encoded version of an XML element (passed in Element and Attribute
  objects).
  */
